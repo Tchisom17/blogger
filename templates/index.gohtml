@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>INDEX</title>
+</head>
+<body>
+{{/*    <h1>Hello, you are welcome!</h1>*/}}
+    {{range .}}
+        {{/*.Id*/}}
+        <li>
+            <ul>{{.Title}}
+                {{.Body}}</ul>
+        </li>
+    {{end}}
+</body>
+</html>

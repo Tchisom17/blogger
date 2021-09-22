@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BLOG</title>
+</head>
+<body>
+    <h1>Welcome to my blog page!</h1>
+{{/*    {{range.}}*/}}
+{{/*        <h1>{{.Title}}</h1>*/}}
+{{/*        <h1>{{.Body}}</h1>*/}}
+{{/*    {{end}}*/}}
+    <form method="POST" action="/blog/create">
+        <input placeholder="Title" name="title" type="text">
+        <br/><br/>
+        <textarea name="body"></textarea>
+        <br/><br/>
+        <input name="submit" type="submit">
+    </form>
+</body>
+</html>
